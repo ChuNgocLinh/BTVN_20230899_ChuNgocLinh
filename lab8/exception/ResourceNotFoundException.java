@@ -1,0 +1,9 @@
+package vn.edu.eaut.lab8.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
+
